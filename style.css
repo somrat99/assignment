@@ -1,0 +1,136 @@
+/* defult css */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* main-div */
+
+.main-div {
+    border: 1px solid #3498db;
+}
+
+/* developers-section */
+.developeprs-section {
+    text-align: center;
+    padding: 20px 80px;
+}
+
+.developers-team {
+
+
+    border: 3px double #ddd;
+    padding: 5px 10px 10px 10px;
+}
+
+.developers-team h1 {
+    font-size: 27px;
+}
+
+.developers-item {
+    width: 33%;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.developers-item .developers-picture {}
+
+.developers-item .developers-picture img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    border: 1px solid #ddd;
+}
+
+.developers-item .devs-content {}
+
+.developers-item .devs-content h2 {}
+
+.developers-item .devs-content h3 {}
+
+.developers-item .devs-content h4 {}
+
+.developers-item .devs-content span {}
+
+/* students-section */
+
+.students-section {
+    text-align: center;
+    padding: 20px 80px;
+}
+
+.students-team {
+    border: 3px double #ddd;
+    padding: 5px 10px 10px 10px;
+}
+
+.students-team h1 {
+
+    font-size: 27px;
+}
+
+.students-box {
+    border: 3px ridge #ddd;
+    display: inline-block;
+    padding: 0px 0px 5px 0px;
+}
+
+.students-item {
+    width: 33%;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.students-picture {}
+
+.students-picture img {
+    width: 250px;
+    height: 200px;
+}
+
+.students-content {}
+
+.students-content h2 {}
+
+.students-content h3 {}
+
+
+/* Family Number Sheet */
+
+.phnnumber-section {
+    padding: 20px 80px;
+}
+
+.phnnumber-box {
+    border-top: 3px groove #ddddddc2;
+    text-align: center;
+}
+
+.phnnumber-box h1 {
+    margin-top: 7px;
+    margin-bottom: 8px;
+}
+
+.phnnumber-box table{
+    width: 100%;
+}
+.phnnumber-box table,th,td {
+    border: 1px solid #ddd;
+}
+
+.phnnumber-box table tr td {}
+ 
+.phnnumber-box table tr td img {
+    width: 50px;
+    height: 50px;
+}
+
+.phnnumber-box table tr:nth-child(odd){
+    background-color: #2268ad87;
+}
+
+/* End */
